@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dabin.www.yilianxi.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/shouye"
+          style="@style/main_style"
+            android:text="首页"
+           />
+        <RadioButton
+            android:id="@+id/zixuan"
+            style="@style/main_style"
+            android:text="自选"
+            />
+        <RadioButton
+            android:id="@+id/hangqing"
+            style="@style/main_style"
+            android:text="行情"
+            />
+        <RadioButton
+            android:id="@+id/zixun"
+            style="@style/main_style"
+            android:text="资讯"
+            />
+        <RadioButton
+            android:id="@+id/jiaoyi"
+            style="@style/main_style"
+            android:text="交易"
+            />
+    </RadioGroup>
+</RelativeLayout>
